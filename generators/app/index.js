@@ -1,7 +1,7 @@
 const Generator = require('yeoman-generator')
 
 module.exports = class extends Generator {
-    prompting() {
+    prompting() { // 安装过程中的询问窗口
         return this.prompt([
             {
                 type: 'input',
@@ -44,6 +44,7 @@ module.exports = class extends Generator {
           ]
           templates.forEach((item) => {
               this.fs.copyTpl(
+                  // item => 每个文件路径
                   this.templatePath(item),
                   this.destinationPath(item),
                   this.answers

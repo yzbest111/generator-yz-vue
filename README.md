@@ -1,6 +1,20 @@
 # generator-yz-vue
 
-基于Yeoman创建的脚手架示例
+You can use the generator as the follows:
+## install yo and generator-yz-vue global
+```
+yarn add global yo or npm install global yo
+yarn add global generator-yz-vue or npm install global generator-yz-vue
+```
+
+## create project
+```
+mkdir vue-example
+code vue-example
+yo yz-vue
+```
+
+You can create a generator base on yeoman as the follows:
 
 1. 新建一个以generator开头的文件夹，如mkdir generator-vue-cli
 2. 全局安装 **yoman**模块： yarn global add yo

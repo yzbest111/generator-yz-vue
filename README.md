@@ -10,7 +10,7 @@ yarn add global generator-yz-vue or npm install global generator-yz-vue
 ## create project
 ```
 mkdir vue-example
-code vue-example
+cd vue-example
 yo yz-vue
 ```
 

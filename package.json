@@ -3,6 +3,8 @@
   "version": "0.2.0",
   "main": "index.js",
   "license": "MIT",
+  "author": "yuzheng (https://github.com/yzbest111)",
+  "keywords": ["scaffolding", "generator", "yeoman", "vue"],
   "dependencies": {
     "yeoman-generator": "^4.12.0"
   }
